@@ -2,15 +2,6 @@
 
 /*prova de vida*/
 
-.prova__de__vida {
-  border-top-left-radius: 7%;
-  border-top-right-radius: 7%;
-}
-
-.prova__de__vida h1 {
-  text-align: center;
-}
-
 .prova__de__vida-acordion {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transform: translateY(-10px);
@@ -22,14 +13,6 @@
   margin: 15px auto;
 }
 
-.prova__de__vida-acordion:hover {
-}
-
 .prova__de__vida-acordion h4 {
-  text-align: center;
   font-size: 19px;
-}
-
-.prova__de__vida-acordion p {
-  text-align: justify;
 }

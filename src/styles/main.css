@@ -2,6 +2,7 @@
 @import url(about.css);
 @import url(homeopatia.css);
 @import url(provaDeVida.css);
+@import url(faq.css);
 
 /*fonts import*/
 
@@ -21,4 +22,16 @@ footer {
   height: 50vh;
   background-color: #011f26;
   margin-top: 10vh;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }

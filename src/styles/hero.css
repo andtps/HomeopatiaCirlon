@@ -10,7 +10,7 @@
 /*navbar*/
 nav {
   width: 80%;
-  margin: 0 auto;
+
   padding: 3%;
 }
 
@@ -33,6 +33,7 @@ a {
 /*hero da página*/
 
 .header-content {
+  align-items: center;
   padding: 10%;
   display: grid;
   grid-template-columns: 44% 55%;
@@ -41,7 +42,6 @@ a {
 
 .header__text {
   display: flex;
-  align-items: center;
 }
 
 .header__text p {
@@ -51,7 +51,8 @@ a {
 }
 
 .header__text p span {
-  color: #011f26;
+  color: #033a40;
+  font-weight: 600;
 }
 
 .header__img img {
