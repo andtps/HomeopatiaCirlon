@@ -1,0 +1,59 @@
+@import url(main.css);
+
+.header__class {
+  height: 60vh;
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*navbar*/
+nav {
+  width: 80%;
+  margin: 0 auto;
+  padding: 3%;
+}
+
+nav ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+/*hero da página*/
+
+.header-content {
+  padding: 10%;
+  display: grid;
+  grid-template-columns: 44% 55%;
+  gap: 1%;
+}
+
+.header__text {
+  display: flex;
+  align-items: center;
+}
+
+.header__text p {
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+}
+
+.header__text p span {
+  color: #011f26;
+}
+
+.header__img img {
+  width: 55vw;
+}
