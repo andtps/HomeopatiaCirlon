@@ -10,7 +10,6 @@
 /*navbar*/
 nav {
   width: 80%;
-
   padding: 3%;
 }
 
@@ -28,6 +27,7 @@ a {
   text-decoration: none;
   color: white;
   cursor: pointer;
+  font-weight: 500;
 }
 
 /*hero da página*/
@@ -56,5 +56,9 @@ a {
 }
 
 .header__img img {
-  width: 55vw;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
