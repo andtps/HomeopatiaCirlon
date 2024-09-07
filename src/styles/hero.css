@@ -1,7 +1,7 @@
 @import url(main.css);
 
 .header__class {
-  height: 75vh;
+  height: 85vh;
   background-image: url(../images/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -39,21 +39,23 @@ a {
 
 .header__text {
   display: flex;
+  padding: 10px;
 }
 
 .header__text p {
-  font-size: 1em;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
   color: white;
 }
 
 .header__text p span {
   color: #033a40;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .header__img img {
-  width: 80%;
+  width: 85%;
   max-width: 400px;
   height: auto;
   display: block;
