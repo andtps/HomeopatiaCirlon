@@ -24,6 +24,10 @@ footer {
   margin-top: 10vh;
 }
 
+.margin {
+  padding: 0 30px 0 30px;
+}
+
 .center {
   margin: 0 auto;
 }
