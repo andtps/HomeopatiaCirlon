@@ -12,11 +12,17 @@
 }
 
 .prova__de__vida-acordion {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  border-radius: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   max-width: 55%;
-  margin: 0 auto;
+  margin: 15px auto;
+}
+
+.prova__de__vida-acordion:hover {
 }
 
 .prova__de__vida-acordion h4 {
